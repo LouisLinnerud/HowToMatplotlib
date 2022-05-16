@@ -62,6 +62,6 @@ plt.title("Animation")
 def animate(i):
     ln1.set_data(x,f_2(x,1/50*i))#1/50 => 50 fps
 ani = animation.FuncAnimation(fig,animate,frames=100,interval=50)
-ani.save('/Users/louislinnerud/Documents/PROGGING/actuallyLearningSciPy/resources/ani.gif',writer='pillow',fps=50, dpi=100)
+#ani.save('/Users/louislinnerud/Documents/PROGGING/actuallyLearningSciPy/resources/ani.gif',writer='pillow',fps=50, dpi=100)
 
 plt.show()
