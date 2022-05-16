@@ -65,3 +65,4 @@ ani = animation.FuncAnimation(fig,animate,frames=100,interval=50)
 #ani.save('/Users/louislinnerud/Documents/PROGGING/actuallyLearningSciPy/resources/ani.gif',writer='pillow',fps=50, dpi=100)
 
 plt.show()
+
